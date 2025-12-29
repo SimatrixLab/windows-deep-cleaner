@@ -43,8 +43,10 @@ Remove `::` from the line:
 A lightweight, automated Batch script to reclaim disk space on Windows C: drive using native Command Prompt tools.
 ```
 
-## To Enable CompactOS (Saves 2GB - 4GB): Remove :: from the line:
+**To Enable CompactOS (Saves 2GB - 4GB): Remove :: from the line:**
+```batch
 :: compact.exe /CompactOS:always
+```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
